@@ -36,7 +36,7 @@ You'll be prompted for your OpenAI API key if it's not provided as an environmen
 Per their documentation:
 'OpenAI will not use data submitted by customers via our API to train or improve our models, unless you explicitly decide to share your data with us for this purpose.`
 
-## Exporting Bear Notes to markdown
+### Exporting Bear Notes to markdown
 
 You can provide the `export-markdown` argument to the script to export all of your notes individually to markdown files should you wish to feed them to a tool like [mem.ai](https://mem.ai).
 
@@ -46,6 +46,6 @@ poetry run python main.py export-markdown
 
 Files are written to `./data` and purged each time you export.
 
-## My notes have sensitive info though!
+### My notes have sensitive info though!
 Some notes will not be exported if they contain certain keywords that may indicate sensitve contents. You can customize this if you pull down / fork this repository.
 Check out the [`contains_sensitive_info()`](https://github.com/aflansburg/bearhugs/blob/main/bearhugs/notes.py#L17) method.
