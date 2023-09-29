@@ -32,6 +32,10 @@ You'll be prompted for your OpenAI API key if it's not provided as an environmen
 
 ![runtime-screenshot](./bearhugs/assets/screenshots/screenshot-1.png)
 
+### Data Privacy w/ OpenAI's API
+Per their documentation:
+'OpenAI will not use data submitted by customers via our API to train or improve our models, unless you explicitly decide to share your data with us for this purpose.`
+
 ## Exporting Bear Notes to markdown
 
 You can provide the `export-markdown` argument to the script to export all of your notes individually to markdown files should you wish to feed them to a tool like [mem.ai](https://mem.ai).
