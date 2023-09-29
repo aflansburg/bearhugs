@@ -45,5 +45,7 @@ poetry run python main.py export-markdown
 ```
 
 Files are written to `./data` and purged each time you export.
-Some notes will not be exported if they contain certain keywords that may indicate sensitve contents.
+
+## My notes have sensitive info though!
+Some notes will not be exported if they contain certain keywords that may indicate sensitve contents. You can customize this if you pull down / fork this repository.
 Check out the [`contains_sensitive_info()`](https://github.com/aflansburg/bearhugs/blob/main/bearhugs/notes.py#L17) method.
